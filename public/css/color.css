@@ -303,14 +303,15 @@ a{
 .services .service-block:nth-child(1) .icon-box,
 .what-we-do .service-block:nth-child(9) .icon-box,
 .services .service-block:nth-child(9) .icon-box{
-	color:#3cc88f;
+	background-image: url("/images/favicon.png");	
 }
 
 .what-we-do .service-block:nth-child(1) .icon-box:after,
 .services .service-block:nth-child(1) .icon-box:after,
 .what-we-do .service-block:nth-child(9) .icon-box:after,
 .services .service-block:nth-child(9) .icon-box:after{
-	background:#3cc88f;	
+	 background: url("../images/s1.png");
+	 background-size:contain;
 }
 
 .what-we-do .service-block:nth-child(2) .icon-box,
@@ -324,7 +325,8 @@ a{
 .services .service-block:nth-child(2) .icon-box:after,
 .what-we-do .service-block:nth-child(10) .icon-box:after,
 .services .service-block:nth-child(10) .icon-box:after{
-	background:#ff6b70;	
+	background: url("../images/s2.png");
+	 background-size:contain;
 }
 
 .what-we-do .service-block:nth-child(3) .icon-box,
@@ -338,7 +340,8 @@ a{
 .services .service-block:nth-child(3) .icon-box:after,
 .what-we-do .service-block:nth-child(11) .icon-box:after,
 .services .service-block:nth-child(11) .icon-box:after{
-	background:#21d7d9;	
+	background: url("../images/s3.png");
+	 background-size:contain;
 }
 
 .what-we-do .service-block:nth-child(4) .icon-box,
@@ -352,7 +355,8 @@ a{
 .services .service-block:nth-child(4) .icon-box:after,
 .what-we-do .service-block:nth-child(12) .icon-box:after,
 .services .service-block:nth-child(12) .icon-box:after{
-	background:#f7a900;	
+	background: url("../images/s4.png");
+	 background-size:contain;
 }
 
 .what-we-do .service-block:nth-child(5) .icon-box,
@@ -1157,8 +1161,8 @@ a.ui-button:active, .ui-button:active,
 }
 
 .theme-color-two .what-we-do .service-block.style-two .icon-box {
-    color: #fc2c62;
-    text-align: center;
+    background: url("../images/s2.png");
+	 background-size:contain;
 }
 
 .theme-color-two .fluid-section {
